@@ -18,6 +18,7 @@
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 
+---
 
 ## 📌 Índice
 * [📖 Visão Geral e Escopo Técnico](#-visão-geral-e-escopo-técnico)
