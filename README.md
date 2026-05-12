@@ -92,6 +92,18 @@ Esta feature de consulta na web pode ser ativada ou desativada conforme polític
 ### Medindo sucesso da campanha comparando dados do lakehouse com dados da web:
 <img width="523" height="760" alt="image" src="https://github.com/user-attachments/assets/2d4dc5b1-30bf-4c00-a191-f73302545f5f" />
 
+## Exemplos de geração de gráficos conforme o prompt que você digitar:
+<img width="592" height="791" alt="image" src="https://github.com/user-attachments/assets/c9fd6591-8fe8-4638-8468-92e94222a357" />
+
+<img width="602" height="896" alt="image" src="https://github.com/user-attachments/assets/19e38d8f-c2ff-42ca-b6ee-251d8c0af432" />
+
+## Procurando oportunidades de negócio
+
+<img width="631" height="421" alt="image" src="https://github.com/user-attachments/assets/69fa8c3f-e7c3-4c1e-9f85-72fbca975d1e" />
+
+## Aprofundando o planejamento de campanhas
+<img width="623" height="795" alt="image" src="https://github.com/user-attachments/assets/a76efba8-d154-4d7a-98c6-6337e2cbe451" />
+
 
 ## Performance por Categoria e Região
 O assistente é capaz de cruzar dados de vendas de *Crop Protection* e *Híbridos de Sementes* instantaneamente.
