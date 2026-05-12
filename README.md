@@ -134,6 +134,12 @@ main:
 4. **Busca Vetorial:** Indexação no Vertex AI Search.
 5. **LLM Interface:** Gemini Enterprise respondendo com Grounding na Gold.
 
+### Pequena amostra do início do data lakehouse em Delta e scripts do pipeline de ingestão e tratamento (ETL) da arquitetura medalhão:
+<img width="1616" height="684" alt="image" src="https://github.com/user-attachments/assets/ac6205d1-6472-4827-a07f-e279e1f21568" />
+
+### Evidências do lakehouse em Delta com parquet:
+<img width="511" height="461" alt="image" src="https://github.com/user-attachments/assets/b94bc61e-f8d5-499b-98b2-4a9aa23a2e56" />
+
 ---
 
 ## ⚙️ Orquestração & FinOps
