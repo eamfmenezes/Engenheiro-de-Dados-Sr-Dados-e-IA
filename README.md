@@ -169,7 +169,7 @@ Em vez de utilizar clusters fixos (Airflow), optei pelo **Cloud Workflows**, red
 
 ---
 
-O intuito é mostrar não ficamos apenas no "fazer o código", mas também pensamos no financeiro (FinOps) e na eficiência da nuvem.  
+O intuito é mostrar que não ficamos apenas no "fazer o código", mas também pensamos no financeiro (FinOps) e na eficiência da nuvem.  
 
 Para a orquestração, escolhi o Cloud Workflows em vez do Composer. Como a solução é voltada para um modelo SaaS escalável, utilizei uma arquitetura Event-Driven e Serverless.  
 
@@ -331,13 +331,6 @@ Esta feature de consulta na web pode ser ativada ou desativada conforme polític
 <img width="710" height="805" alt="image" src="https://github.com/user-attachments/assets/37e6ac8c-bb8d-4732-a501-6cd5b304ed27" />
 
 
----
-
-## 🛠️ Como Executar
-1. Clone o repositório.
-2. Configure o Bucket no GCS conforme a estrutura Medallion.
-3. Deploy do script Spark no Dataproc.
-4. Importação do `workflow.yaml` no Cloud Workflows.
 
 ---
 **Eduardo Menezes** *Senior Data Engineer | especialista em Dados: Engenharia de dados, BI, AI & Cloud*
