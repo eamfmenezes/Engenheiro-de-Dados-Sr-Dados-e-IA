@@ -8,6 +8,28 @@
 ## 📖 Visão Geral
 Este projeto demonstra a criação de um ecossistema completo de dados e IA para o setor de Go-To-Market (GTM) da Bayer. Através da arquitetura **Medallion**, transformamos dados transacionais brutos em uma base de conhecimento (RAG) para um assistente de IA generativa (Gemini).
 
+## 🎯 Objetivo profissional  
+A solução foi construída sob os pilares de performance, qualidade e escalabilidade, cobrindo as seguintes frentes de responsabilidades de atuação:
+
+**Arquitetura Lakehouse:** Evolução de um ambiente Cloud (GCP) utilizando a metodologia Medallion para processar grandes volumes de dados de forma eficiente.
+
+**Engenharia de Pipelines:** Desenvolvimento e otimização de processos de ingestão (Landing), transformação (Silver) e disponibilização (Gold) utilizando Python, SQL e Spark.
+
+**Orquestração de Workflows:** Implementação de fluxos resilientes e serverless, conectando processos de **ETL** pesado ao consumo analítico.
+
+**Inovação em IA:** Condução de iniciativas avançadas de IA Generativa, integrando IA com RAG e com a base de dados estruturada a agentes inteligentes para suporte à decisão, com geração automática de gráficos via prompt, insights, planos de ação e correlação com concorrentes via dados da web se requisitado no prompt.
+
+🛠️ Expertise Aplicada (Requisitos Atendidos)
+Este projeto consolida uma experiência sólida em:
+
+Cloud Data Stack: Domínio do ecossistema Google Cloud Platform.
+
+Big Data: Processamento distribuído e arquitetura de tabelas Delta.
+
+BI & Analytics: Estruturação de dados para consumo em ferramentas como Power BI e Tableau, garantindo que o dado chegue pronto para a tomada de decisão.
+
+Liderança Técnica: Demonstração de maturidade arquitetural, desde a escolha do orquestrador (FinOps) até a implementação de soluções de MLOps e IA.
+
 ---
 
 ## 🏗️ Arquitetura do Sistema
