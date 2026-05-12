@@ -19,7 +19,16 @@
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 
 
-## 📖 Visão Geral
+## 📌 Índice
+* [📖 Visão Geral e Escopo Técnico](#-visão-geral-e-escopo-técnico)
+* [🏗️ Arquitetura do Sistema](#%EF%B8%8F-arquitetura-do-sistema)
+* [⚙️ Orquestração & FinOps](#%EF%B8%8F-orquestração--finops)
+* [🤖 Demonstração da IA (Insights Estratégicos)](#-demonstração-da-ia-insights-estratégicos)
+* [🎯 Objetivo e Perfil Profissional](#-objetivo-e-perfil-profissional)
+
+---
+
+## 📖 Visão Geral e Escopo Técnico
 Este projeto demonstra a criação de um ecossistema completo de dados e IA para o setor de Go-To-Market (GTM) da Bayer. Através da arquitetura **Medallion**, transformamos dados transacionais brutos em uma base de conhecimento (RAG) para um assistente de IA generativa (Gemini).
 
 ```mermaid
@@ -333,5 +342,17 @@ Esta feature de consulta na web pode ser ativada ou desativada conforme polític
 
 
 ---
+
+## 🎯 Objetivo e Perfil Profissional
+
+Especialista em Engenharia de Dados com sólida trajetória em ambientes Cloud (GCP e AWS), focado no desenvolvimento e evolução de arquiteturas Lakehouse (Delta/Iceberg/Databricks) e ETL/ELT com pipelines de dados (GCP PUB/SUB, Dataproc e AWS Kinesis, Glue, EMR e Redshift) escaláveis utilizando Python, SQL e Spark.  
+  
+Com vivência em cenários de alta maturidade de dados, atuo de forma híbrida conectando a estratégia de negócio a soluções técnicas de alta performance, garantindo qualidade e governança em todas as camadas da arquitetura Medallion.  
+  
+Minha experiência abrange desde a orquestração de workflows complexos (Airflow, GCP Workflows, AWS Step Functions) e integração de dados para consumo analítico em BI (Power BI/Tableau), até o suporte e liderança técnica de times, servindo como referência em boas práticas e decisões arquiteturais.  
+  
+Possuo expertise diferenciada na condução de iniciativas avançadas desde a ingestão de dados, IA e MLOps, incluindo o desenvolvimento de agentes inteligentes e soluções baseadas em IA Generativa, unindo a execução técnica rigorosa à visão estratégica necessária para o direcionamento de soluções inovadoras.
+
+
 **Eduardo Menezes** *Senior Data Engineer | especialista em Dados: Engenharia de dados, BI, AI & Cloud*  
 https://www.linkedin.com/in/emenezes/
