@@ -348,7 +348,7 @@ Esta feature de consulta na web pode ser ativada ou desativada conforme polític
 
 Especialista em Engenharia de Dados com sólida trajetória em ambientes Cloud (GCP e AWS), focado no desenvolvimento e evolução de arquiteturas Lakehouse (Delta/Iceberg/Databricks) e ETL/ELT com pipelines de dados (GCP PUB/SUB, Dataproc e AWS Kinesis, Glue, EMR e Redshift) escaláveis utilizando Python, SQL e Spark.  
   
-Com vivência em cenários de alta maturidade de dados, atuo de forma híbrida conectando a estratégia de negócio a soluções técnicas de alta performance, garantindo qualidade e governança em todas as camadas da arquitetura Medallion.  
+Com vivência em cenários de alta maturidade de dados de grandes multinacionais como Bayer, Vodafone do Brasil (Datora), Nokia-Siemens Networks, Nextel (Claro) e outras, hoje atuo de forma híbrida conectando a estratégia de negócio a soluções técnicas de alta performance, garantindo qualidade e governança em todas as camadas da arquitetura Medallion.  
   
 Minha experiência abrange desde a orquestração de workflows complexos (Airflow, GCP Workflows, AWS Step Functions) e integração de dados para consumo analítico em BI (Power BI/Tableau), até o suporte e liderança técnica de times, servindo como referência em boas práticas e decisões arquiteturais.  
   
