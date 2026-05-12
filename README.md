@@ -60,27 +60,38 @@ Em vez de utilizar clusters fixos (Airflow), optei pelo **Cloud Workflows**, red
 
 ---
 
-## 🤖 Demonstração da IA (Insights Estratégicos)
+# 🤖 Demonstração da IA (Insights Estratégicos)
 
-### Campos disponíveis para análise estratégica  
+## Campos disponíveis para análise estratégica  
 O agente é capaz de informar sobre os campos sem precisar de conhecimentos técnicos de SQL por exemplo
 
 <img width="691" height="587" alt="image" src="https://github.com/user-attachments/assets/f990dd9c-eb62-4471-a909-d010b655e1ff" />
 
-### Começando a explorar os dados para validar a consistência
+## Começando a explorar os dados para validar a consistência
 
-## Faturamento 
+### Faturamento: 
 <img width="746" height="464" alt="image" src="https://github.com/user-attachments/assets/555d8ee7-b47e-4f11-8f8a-837855e3d6f3" />
 
-## Verificando se a capacidade de drill down atende:
-<img width="747" height="498" alt="image" src="https://github.com/user-attachments/assets/01798c0e-9557-41d2-b5e3-e7aaa67d0424" />
+## Verificando se a capacidade de drill down atende  
+### Iniciando análise estratégica com sugestão de diretrizes obedecendo as regras de negócios:
+<img width="626" height="764" alt="image" src="https://github.com/user-attachments/assets/1b8db7df-8813-4187-8780-40dfc9e57a4d" />
 
-### Performance por Categoria e Região
+## Performance com faturamento
+O assistente é capaz de fazer análises de performance comparando os campos
+<img width="708" height="729" alt="image" src="https://github.com/user-attachments/assets/2298160c-9e86-4b2e-ad22-6666acb3d4fd" />
+
+### Top 3 com anállise estratégica
+<img width="713" height="761" alt="image" src="https://github.com/user-attachments/assets/ea0007e5-d35c-41ef-990c-c41e99a317c3" />
+
+## Planejamento de campanhas baseado em regras de negócios e dados da web ("safra integrada" citada pelo agente não está nos dados do Lakehouse)
+<img width="533" height="809" alt="image" src="https://github.com/user-attachments/assets/ff2482d2-752a-4dfb-b9df-2d4809a3b440" />
+
+## Performance por Categoria e Região
 O assistente é capaz de cruzar dados de vendas de *Crop Protection* e *Híbridos de Sementes* instantaneamente.
 
 > **[INSERIR PRINT DO CHAT: "Qual a performance de híbridos no Centro-Oeste?"]**
 
-### Ranking de Distribuidores
+## Ranking de Distribuidores
 Identificação rápida de gaps de mercado e performance de fornecedores.
 
 > **[INSERIR PRINT DO CHAT: "Quais os top 5 fornecedores por volume total?"]**
