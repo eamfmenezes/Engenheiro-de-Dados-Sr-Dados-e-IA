@@ -55,9 +55,8 @@ A solução foi desenhada para ser escalável e 100% serverless, minimizando cus
 ## ⚙️ Orquestração & FinOps
 Em vez de utilizar clusters fixos (Airflow), optei pelo **Cloud Workflows**, reduzindo o custo fixo para **zero** durante a ociosidade.
 
-<img width="318" height="724" alt="workflow1" src="https://github.com/user-attachments/assets/4bf21c69-2935-4f37-ad16-ff5af873acf9" />
-<img width="309" height="437" alt="workflow2" src="https://github.com/user-attachments/assets/4c5c578d-4e83-4553-9640-11298e9b2f5b" />
-
+<img width="207" height="765" alt="image" src="https://github.com/user-attachments/assets/7bdc0336-abb2-4646-aa44-5e0914796e7d" />
+<img width="390" height="674" alt="image" src="https://github.com/user-attachments/assets/f5be9b51-1b91-4804-ad4f-ffc3eb77bf99" />
 
 ---
 
