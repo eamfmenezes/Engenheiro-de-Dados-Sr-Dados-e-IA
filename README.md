@@ -1,4 +1,5 @@
-# 🛰️ Bayer GTM Intelligence AI: Data Lakehouse to AI Strategic Agent Platform
+# 🛰️ Bayer GTM Intelligence AI  
+## Data Lakehouse to AI Strategic Agent Platform
 
 ![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apache-spark&logoColor=white)
