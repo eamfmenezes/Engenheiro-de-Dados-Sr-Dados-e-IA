@@ -54,6 +54,15 @@ Este projeto consolida uma experiência sólida em:
 
 ## 🏗️ Arquitetura do Sistema
 ### A solução foi desenhada para ser escalável e 100% serverless, minimizando custos operacionais.  
+Google Cloud Workflows: O Airflow "custo zero" do GCP. A opção de orquestração pelo GCP Composer tem custo.
+O Cloud Workflows é perfeito para esse cenário. Ele orquestra serviços da GCP (Dataproc, Cloud Functions, BigQuery) usando uma estrutura em YAML ou JSON. 
+
+O intuito é mostrar não ficamos apenas no "fazer o código", mas também pensamos no financeiro (FinOps) e na eficiência da nuvem.  
+
+Para a orquestração, escolhi o Cloud Workflows em vez do Composer. Como a solução é voltada para um modelo SaaS escalável, utilizei uma arquitetura Event-Driven e Serverless.  
+
+Isso reduz o TCO (custo total) para o cliente, já que pagamos apenas pelas execuções, mantendo a visibilidade total do fluxo de dados através do grafo de estados.
+
 
 main:
   params: [event]
