@@ -62,6 +62,19 @@ Em vez de utilizar clusters fixos (Airflow), optei pelo **Cloud Workflows**, red
 
 ## 🤖 Demonstração da IA (Insights Estratégicos)
 
+### Campos disponíveis para análise estratégica  
+O agente é capaz de informar sobre os campos sem precisar de conhecimentos técnicos de SQL por exemplo
+
+<img width="691" height="587" alt="image" src="https://github.com/user-attachments/assets/f990dd9c-eb62-4471-a909-d010b655e1ff" />
+
+### Começando a explorar os dados para validar a consistência
+
+## Faturamento 
+<img width="746" height="464" alt="image" src="https://github.com/user-attachments/assets/555d8ee7-b47e-4f11-8f8a-837855e3d6f3" />
+
+## Verificando se a capacidade de drill down atende:
+<img width="747" height="498" alt="image" src="https://github.com/user-attachments/assets/01798c0e-9557-41d2-b5e3-e7aaa67d0424" />
+
 ### Performance por Categoria e Região
 O assistente é capaz de cruzar dados de vendas de *Crop Protection* e *Híbridos de Sementes* instantaneamente.
 
