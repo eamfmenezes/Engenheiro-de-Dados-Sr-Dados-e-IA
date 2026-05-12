@@ -333,4 +333,5 @@ Esta feature de consulta na web pode ser ativada ou desativada conforme polític
 
 
 ---
-**Eduardo Menezes** *Senior Data Engineer | especialista em Dados: Engenharia de dados, BI, AI & Cloud*
+**Eduardo Menezes** *Senior Data Engineer | especialista em Dados: Engenharia de dados, BI, AI & Cloud*  
+https://www.linkedin.com/in/emenezes/
