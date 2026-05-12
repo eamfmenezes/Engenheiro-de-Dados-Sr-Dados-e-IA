@@ -53,7 +53,9 @@ Este projeto consolida uma experiência sólida em:
 ---
 
 ## 🏗️ Arquitetura do Sistema
-### A solução foi desenhada para ser escalável e 100% serverless, minimizando custos operacionais.  
+## A solução foi desenhada para ser escalável e 100% serverless, minimizando custos operacionais.  
+
+### Orquestração
 Google Cloud Workflows: O Airflow "custo zero" do GCP. A opção de orquestração pelo GCP Composer tem custo.
 O Cloud Workflows é perfeito para esse cenário. Ele orquestra serviços da GCP (Dataproc, Cloud Functions, BigQuery) usando uma estrutura em YAML ou JSON. 
 
@@ -143,6 +145,8 @@ Em vez de utilizar clusters fixos (Airflow), optei pelo **Cloud Workflows**, red
 ---
 
 # 🤖 Demonstração da IA (Insights Estratégicos)
+
+<img width="1392" height="939" alt="image" src="https://github.com/user-attachments/assets/344e1183-0a89-4cd5-9074-cbada5eb49e0" />
 
 ## Campos disponíveis para análise estratégica  
 O agente é capaz de informar sobre os campos sem precisar de conhecimentos técnicos de SQL por exemplo
