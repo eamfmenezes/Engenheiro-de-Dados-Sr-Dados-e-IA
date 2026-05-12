@@ -6,14 +6,14 @@
 ![FinOps](https://img.shields.io/badge/Cloud_Workflows-FF9900?style=for-the-badge&logo=google-cloud&logoColor=white)
 
 ## 📖 Visão Geral
-Este projeto demonstra a criação de um ecossistema completo de dados e IA para o setor de Go-To-Market (GTM) da Bayer. Através da arquitetura **Medallion**, transformamos dados transacionais brutos em uma base de conhecimento para um assistente de IA generativa (Gemini).
+Este projeto demonstra a criação de um ecossistema completo de dados e IA para o setor de Go-To-Market (GTM) da Bayer. Através da arquitetura **Medallion**, transformamos dados transacionais brutos em uma base de conhecimento (RAG) para um assistente de IA generativa (Gemini).
 
 ---
 
 ## 🏗️ Arquitetura do Sistema
 A solução foi desenhada para ser escalável e 100% serverless, minimizando custos operacionais.
 
-> **[INSERIR PRINT DO SEU DIAGRAMA DE ARQUITETURA AQUI]**
+<img width="1408" height="768" alt="Gemini_Generated_Image_gtb32fgtb32fgtb3" src="https://github.com/user-attachments/assets/58cff18b-09bb-42f8-aa04-430c14607b50" />
 
 ### Fluxo de Dados:
 1. **Ingestão (Bronze):** Captura de 500k registros JSON via Spark.
@@ -27,7 +27,9 @@ A solução foi desenhada para ser escalável e 100% serverless, minimizando cus
 ## ⚙️ Orquestração & FinOps
 Em vez de utilizar clusters fixos (Airflow), optei pelo **Cloud Workflows**, reduzindo o custo fixo para **zero** durante a ociosidade.
 
-> **[INSERIR PRINT DO GRAFO DO WORKFLOW - VISUALIZAÇÃO DO CONSOLE GCP]**
+<img width="318" height="724" alt="workflow1" src="https://github.com/user-attachments/assets/4bf21c69-2935-4f37-ad16-ff5af873acf9" />
+<img width="309" height="437" alt="workflow2" src="https://github.com/user-attachments/assets/4c5c578d-4e83-4553-9640-11298e9b2f5b" />
+
 
 ---
 
