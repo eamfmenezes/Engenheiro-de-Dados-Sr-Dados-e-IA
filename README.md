@@ -53,7 +53,66 @@ Este projeto consolida uma experiência sólida em:
 ---
 
 ## 🏗️ Arquitetura do Sistema
-A solução foi desenhada para ser escalável e 100% serverless, minimizando custos operacionais.
+### A solução foi desenhada para ser escalável e 100% serverless, minimizando custos operacionais.  
+
+main:
+  params: [event]
+  steps:
+    - init_variables:
+        assign:
+          - project_id: ${sys.get_env("GOOGLE_CLOUD_PROJECT_ID")}
+          - region: "us-central1" # ajuste para sua região
+          - cluster_name: "bayer-gtm-cluster"
+          - lakehouse_status: "STARTING"
+
+    - process_bronze_layer:
+        try:
+          call: googleapis.dataproc.v1.projects.regions.jobs.submit
+          args:
+            projectId: ${project_id}
+            region: ${region}
+            body:
+              job:
+                pysparkJob:
+                  mainPythonFileUri: "gs://bayer-artifacts/scripts/ingest_bronze.py"
+                placement:
+                  clusterName: ${cluster_name}
+          result: bronze_result
+        retry: ${http.default_retry}
+
+    - transform_silver_to_gold:
+        call: googleapis.dataproc.v1.projects.regions.jobs.submit
+        args:
+          projectId: ${project_id}
+          region: ${region}
+          body:
+            job:
+              pysparkJob:
+                mainPythonFileUri: "gs://bayer-artifacts/scripts/refine_gold.py"
+              placement:
+                clusterName: ${cluster_name}
+        result: gold_result
+
+    - refresh_vertex_ai_index:
+        call: http.post
+        args:
+          url: ${"https://discoveryengine.googleapis.com/v1/projects/" + project_id + "/locations/global/collections/default_collection/dataStores/bayer-gtm-gold-ds/branches/0/documents:import"}
+          auth:
+            type: OAuth2
+        result: index_status
+
+    - final_check_and_notify:
+        switch:
+          - condition: ${index_status.code == 200}
+            next: success_notification
+        next: handle_failure
+
+    - success_notification:
+        return: "Pipeline Bayer GTM finalizado: Dados na Gold e Gemini atualizado."
+
+    - handle_failure:
+        raise: "Erro crítico no pipeline de dados GTM."
+        
 
 <img width="1408" height="768" alt="Gemini_Generated_Image_gtb32fgtb32fgtb3" src="https://github.com/user-attachments/assets/58cff18b-09bb-42f8-aa04-430c14607b50" />
 
