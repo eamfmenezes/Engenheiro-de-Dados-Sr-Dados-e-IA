@@ -25,26 +25,65 @@ Este projeto demonstra a criação de um ecossistema completo de dados e IA para
 ```mermaid
 flowchart LR
 
+%% =========================
+%% FONTES
+%% =========================
+
 A1["Sistemas Transacionais"]
 A2["JSON APIs"]
-A3["Dados Web"]
+A3["Dados Web & Concorrência"]
 
-WF["Cloud Workflows"]
-DP["Dataproc"]
+%% =========================
+%% ORQUESTRAÇÃO
+%% =========================
 
-B["Bronze"]
-C["Silver"]
-D["Gold"]
+WF["Cloud Workflows\nServerless Orchestration"]
+DP["Dataproc Serverless\nPySpark ETL"]
 
-E["Vertex AI Search"]
-F["Gemini"]
+%% =========================
+%% LAKEHOUSE
+%% =========================
+
+B["Bronze Layer\nRaw JSON"]
+C["Silver Layer\nData Cleansing"]
+D["Gold Layer\nAnalytics Ready"]
+
+DL["Delta Lake\nACID + Time Travel"]
+GCS["Cloud Storage\nLakehouse Storage"]
+
+%% =========================
+%% IA
+%% =========================
+
+E["Vertex AI Search\nRAG Vector Search"]
+F["Gemini Enterprise\nGenAI Agent"]
+
+MLOPS["MLOps\nModel Monitoring"]
+
+%% =========================
+%% ANALYTICS
+%% =========================
 
 G["Power BI"]
 H["Tableau"]
 
-I["Insights"]
-J["Campanhas"]
-K["Graficos IA"]
+I["Strategic Insights"]
+J["Campaign Planning"]
+K["AI Graph Generation"]
+
+%% =========================
+%% TECNOLOGIAS
+%% =========================
+
+P["Python"]
+S["PySpark"]
+SQL["SQL"]
+ETL["ETL Pipelines"]
+RAG["RAG Architecture"]
+
+%% =========================
+%% FLUXOS
+%% =========================
 
 A1 --> WF
 A2 --> WF
@@ -56,8 +95,13 @@ DP --> B
 B --> C
 C --> D
 
+D --> DL
+DL --> GCS
+
 D --> E
 E --> F
+
+F --> MLOPS
 
 D --> G
 D --> H
@@ -66,28 +110,48 @@ F --> I
 F --> J
 F --> K
 
-style A1 fill:#E5E7EB,stroke:#6B7280
-style A2 fill:#E5E7EB,stroke:#6B7280
-style A3 fill:#E5E7EB,stroke:#6B7280
+DP --> P
+DP --> S
+DP --> SQL
+DP --> ETL
 
-style WF fill:#FEE2E2,stroke:#EF4444
-style DP fill:#FEE2E2,stroke:#EF4444
+F --> RAG
 
-style B fill:#D1FAE5,stroke:#10B981
-style C fill:#DBEAFE,stroke:#3B82F6
-style D fill:#FDE68A,stroke:#F59E0B
+%% =========================
+%% CORES
+%% =========================
 
-style E fill:#EDE9FE,stroke:#8B5CF6
-style F fill:#EDE9FE,stroke:#8B5CF6
+style A1 fill:#E5E7EB,stroke:#6B7280,stroke-width:2px
+style A2 fill:#E5E7EB,stroke:#6B7280,stroke-width:2px
+style A3 fill:#E5E7EB,stroke:#6B7280,stroke-width:2px
 
-style G fill:#FBCFE8,stroke:#EC4899
-style H fill:#FBCFE8,stroke:#EC4899
+style WF fill:#FEE2E2,stroke:#EF4444,stroke-width:2px
+style DP fill:#FEE2E2,stroke:#EF4444,stroke-width:2px
 
-style I fill:#C7D2FE,stroke:#6366F1
-style J fill:#C7D2FE,stroke:#6366F1
-style K fill:#C7D2FE,stroke:#6366F1
+style B fill:#D1FAE5,stroke:#10B981,stroke-width:2px
+style C fill:#DBEAFE,stroke:#3B82F6,stroke-width:2px
+style D fill:#FDE68A,stroke:#F59E0B,stroke-width:2px
+
+style DL fill:#FDE68A,stroke:#D97706,stroke-width:2px
+style GCS fill:#FDE68A,stroke:#D97706,stroke-width:2px
+
+style E fill:#EDE9FE,stroke:#8B5CF6,stroke-width:2px
+style F fill:#EDE9FE,stroke:#8B5CF6,stroke-width:2px
+style MLOPS fill:#DDD6FE,stroke:#7C3AED,stroke-width:2px
+
+style G fill:#FBCFE8,stroke:#EC4899,stroke-width:2px
+style H fill:#FBCFE8,stroke:#EC4899,stroke-width:2px
+
+style I fill:#C7D2FE,stroke:#6366F1,stroke-width:2px
+style J fill:#C7D2FE,stroke:#6366F1,stroke-width:2px
+style K fill:#C7D2FE,stroke:#6366F1,stroke-width:2px
+
+style P fill:#DCFCE7,stroke:#16A34A,stroke-width:2px
+style S fill:#DCFCE7,stroke:#16A34A,stroke-width:2px
+style SQL fill:#DCFCE7,stroke:#16A34A,stroke-width:2px
+style ETL fill:#DCFCE7,stroke:#16A34A,stroke-width:2px
+style RAG fill:#E9D5FF,stroke:#9333EA,stroke-width:2px
 ```
-
 ---
 
 ## 🏗️ Arquitetura do Sistema
