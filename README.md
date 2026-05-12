@@ -83,8 +83,15 @@ O assistente é capaz de fazer análises de performance comparando os campos
 ### Top 3 com anállise estratégica
 <img width="713" height="761" alt="image" src="https://github.com/user-attachments/assets/ea0007e5-d35c-41ef-990c-c41e99a317c3" />
 
-## Planejamento de campanhas baseado em regras de negócios e dados da web ("safra integrada" citada pelo agente não está nos dados do Lakehouse)
+## Planejamento de campanhas baseado em regras de negócios e dados da web  
+Note que "safra integrada" citada pelo agente não está nos dados do Lakehouse.  
+Esta feature de consulta na web pode ser ativada ou desativada conforme políticas da empresa.  
+  
 <img width="533" height="809" alt="image" src="https://github.com/user-attachments/assets/ff2482d2-752a-4dfb-b9df-2d4809a3b440" />
+
+### Medindo sucesso da campanha comparando dados do lakehouse com dados da web:
+<img width="523" height="760" alt="image" src="https://github.com/user-attachments/assets/2d4dc5b1-30bf-4c00-a191-f73302545f5f" />
+
 
 ## Performance por Categoria e Região
 O assistente é capaz de cruzar dados de vendas de *Crop Protection* e *Híbridos de Sementes* instantaneamente.
