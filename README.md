@@ -157,9 +157,17 @@ style RAG fill:#E9D5FF,stroke:#9333EA,stroke-width:2px
 ## 🏗️ Arquitetura do Sistema
 ## A solução foi desenhada para ser escalável e 100% serverless, minimizando custos operacionais.  
 
-### Orquestração
+## ⚙️ Orquestração & FinOps
 Google Cloud Workflows: O Airflow "custo zero" do GCP. A opção de orquestração pelo GCP Composer tem custo.
 O Cloud Workflows é perfeito para esse cenário. Ele orquestra serviços da GCP (Dataproc, Cloud Functions, BigQuery) usando uma estrutura em YAML ou JSON. 
+
+
+Em vez de utilizar clusters fixos (Airflow), optei pelo **Cloud Workflows**, reduzindo o custo fixo para **zero** durante a ociosidade.
+
+<img width="207" height="600" alt="image" src="https://github.com/user-attachments/assets/7bdc0336-abb2-4646-aa44-5e0914796e7d" />
+<img width="300" height="600" alt="image" src="https://github.com/user-attachments/assets/f5be9b51-1b91-4804-ad4f-ffc3eb77bf99" />
+
+---
 
 O intuito é mostrar não ficamos apenas no "fazer o código", mas também pensamos no financeiro (FinOps) e na eficiência da nuvem.  
 
@@ -236,46 +244,55 @@ main:
 4. **Busca Vetorial:** Indexação no Vertex AI Search.
 5. **LLM Interface:** Gemini Enterprise respondendo com Grounding na Gold.
 
-### Pequena amostra do início do data lakehouse em Delta e scripts do pipeline de ingestão e tratamento (ETL) da arquitetura medalhão:
+---
+
+### Amostra do início do data lakehouse em Delta e scripts do pipeline de ingestão e tratamento (ETL) da arquitetura medalhão:
 <img width="1616" height="684" alt="image" src="https://github.com/user-attachments/assets/ac6205d1-6472-4827-a07f-e279e1f21568" />
+
+---
 
 ### Evidências do lakehouse em Delta com parquet:
 <img width="511" height="461" alt="image" src="https://github.com/user-attachments/assets/b94bc61e-f8d5-499b-98b2-4a9aa23a2e56" />
 
 ---
 
-## ⚙️ Orquestração & FinOps
-Em vez de utilizar clusters fixos (Airflow), optei pelo **Cloud Workflows**, reduzindo o custo fixo para **zero** durante a ociosidade.
-
-<img width="207" height="765" alt="image" src="https://github.com/user-attachments/assets/7bdc0336-abb2-4646-aa44-5e0914796e7d" />
-<img width="390" height="674" alt="image" src="https://github.com/user-attachments/assets/f5be9b51-1b91-4804-ad4f-ffc3eb77bf99" />
-
----
 
 # 🤖 Demonstração da IA (Insights Estratégicos)
 
 <img width="1392" height="939" alt="image" src="https://github.com/user-attachments/assets/344e1183-0a89-4cd5-9074-cbada5eb49e0" />
+
+---
 
 ## Campos disponíveis para análise estratégica  
 O agente é capaz de informar sobre os campos sem precisar de conhecimentos técnicos de SQL por exemplo
 
 <img width="691" height="587" alt="image" src="https://github.com/user-attachments/assets/f990dd9c-eb62-4471-a909-d010b655e1ff" />
 
+---
+
 ## Começando a explorar os dados para validar a consistência
 
 ### Faturamento: 
 <img width="746" height="464" alt="image" src="https://github.com/user-attachments/assets/555d8ee7-b47e-4f11-8f8a-837855e3d6f3" />
 
+---
+
 ## Verificando se a capacidade de drill down atende  
 ### Iniciando análise estratégica com sugestão de diretrizes obedecendo as regras de negócios:
 <img width="626" height="764" alt="image" src="https://github.com/user-attachments/assets/1b8db7df-8813-4187-8780-40dfc9e57a4d" />
+
+---
 
 ## Performance com faturamento
 O assistente é capaz de fazer análises de performance comparando os campos
 <img width="708" height="729" alt="image" src="https://github.com/user-attachments/assets/2298160c-9e86-4b2e-ad22-6666acb3d4fd" />
 
-### Top 3 com anállise estratégica
+---
+
+### Top 3 com análise estratégica
 <img width="713" height="761" alt="image" src="https://github.com/user-attachments/assets/ea0007e5-d35c-41ef-990c-c41e99a317c3" />
+
+---
 
 ## Planejamento de campanhas baseado em regras de negócios e dados da web  
 Note que "safra integrada" citada pelo agente não está nos dados do Lakehouse.  
@@ -283,20 +300,30 @@ Esta feature de consulta na web pode ser ativada ou desativada conforme polític
   
 <img width="533" height="809" alt="image" src="https://github.com/user-attachments/assets/ff2482d2-752a-4dfb-b9df-2d4809a3b440" />
 
+---
+
 ### Medindo sucesso da campanha comparando dados do lakehouse com dados da web:
 <img width="523" height="760" alt="image" src="https://github.com/user-attachments/assets/2d4dc5b1-30bf-4c00-a191-f73302545f5f" />
+
+---
 
 ## Exemplos de geração de gráficos conforme o prompt que você digitar:
 <img width="592" height="791" alt="image" src="https://github.com/user-attachments/assets/c9fd6591-8fe8-4638-8468-92e94222a357" />
 
 <img width="602" height="896" alt="image" src="https://github.com/user-attachments/assets/19e38d8f-c2ff-42ca-b6ee-251d8c0af432" />
 
+---
+
 ## Procurando oportunidades de negócio
 
 <img width="631" height="421" alt="image" src="https://github.com/user-attachments/assets/69fa8c3f-e7c3-4c1e-9f85-72fbca975d1e" />
 
+---
+
 ## Aprofundando o planejamento de campanhas
 <img width="623" height="795" alt="image" src="https://github.com/user-attachments/assets/a76efba8-d154-4d7a-98c6-6337e2cbe451" />
+
+---
 
 ## Otimização da movimentação de acesso com proposta de redistribuição estratégica
 
