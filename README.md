@@ -104,16 +104,11 @@ Esta feature de consulta na web pode ser ativada ou desativada conforme polític
 ## Aprofundando o planejamento de campanhas
 <img width="623" height="795" alt="image" src="https://github.com/user-attachments/assets/a76efba8-d154-4d7a-98c6-6337e2cbe451" />
 
+## Otimização da movimentação de acesso com proposta de redistribuição estratégica
 
-## Performance por Categoria e Região
-O assistente é capaz de cruzar dados de vendas de *Crop Protection* e *Híbridos de Sementes* instantaneamente.
+<img width="694" height="750" alt="image" src="https://github.com/user-attachments/assets/c42a38a5-e325-4476-93fc-970839e600c3" />
+<img width="710" height="805" alt="image" src="https://github.com/user-attachments/assets/37e6ac8c-bb8d-4732-a501-6cd5b304ed27" />
 
-> **[INSERIR PRINT DO CHAT: "Qual a performance de híbridos no Centro-Oeste?"]**
-
-## Ranking de Distribuidores
-Identificação rápida de gaps de mercado e performance de fornecedores.
-
-> **[INSERIR PRINT DO CHAT: "Quais os top 5 fornecedores por volume total?"]**
 
 ---
 
@@ -124,4 +119,4 @@ Identificação rápida de gaps de mercado e performance de fornecedores.
 4. Importação do `workflow.yaml` no Cloud Workflows.
 
 ---
-**Eduardo Menezes** *Senior Data Engineer | especialista em AI & Cloud*
+**Eduardo Menezes** *Senior Data Engineer | especialista em Dados: Engenharia de dados, BI, AI & Cloud*
